@@ -1,0 +1,7 @@
+attribute,n_scored,n_correct,accuracy
+Accident or design?,3874,3181,0.8211
+Amusing?,3874,768,0.1982
+Emotion?,3874,2350,0.6066
+Gender?,3874,3155,0.8144
+Hard to spot?,3874,2441,0.6301
+Person or creature?,3874,1119,0.2888

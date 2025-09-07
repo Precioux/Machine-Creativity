@@ -1,0 +1,10 @@
+gt_norm,n_gt,n_correct,recall
+,12,0,0.0
+alien,259,1,0.0039
+animal,875,358,0.4091
+cartoon,639,289,0.4523
+human-adult,605,18,0.0298
+human-old,154,17,0.1104
+human-young,159,1,0.0063
+other,669,357,0.5336
+robot,502,78,0.1554
