@@ -1,0 +1,19 @@
+attribute,model,accuracy_strict
+Accident or design?,gemini-2.5-flash-lite,0.7011240908089046
+Accident or design?,gemma3,0.4055543310557637
+Accident or design?,qwen2.5vl,0.0037469693630152083
+Amusing?,gemma3,0.26515318492395856
+Amusing?,gemini-2.5-flash-lite,0.1692748512232753
+Amusing?,qwen2.5vl,0.0008816398501212254
+Emotion?,gemini-2.5-flash-lite,0.51796341194622
+Emotion?,gemma3,0.455366982587613
+Emotion?,qwen2.5vl,0.003085739475424289
+Gender?,gemini-2.5-flash-lite,0.6953934317831166
+Gender?,gemma3,0.6581441481154948
+Gender?,qwen2.5vl,0.0028653295128939827
+Hard to spot?,gemini-2.5-flash-lite,0.5380207185364779
+Hard to spot?,gemma3,0.1930791271765484
+Hard to spot?,qwen2.5vl,0.0006612298875909191
+Person or creature?,gemini-2.5-flash-lite,0.2466387480714128
+Person or creature?,gemma3,0.16045845272206302
+Person or creature?,qwen2.5vl,0.0015428697377121445

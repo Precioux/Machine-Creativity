@@ -1,0 +1,7 @@
+attribute,best_macro_f1,winners
+Hard to spot?,0.40323511658499767,gemini-2.5-flash-lite
+Accident or design?,0.9444444444444444,qwen2.5vl
+Emotion?,0.8164251207729469,qwen2.5vl
+Person or creature?,0.4623015873015873,qwen2.5vl
+Gender?,0.6428571428571428,qwen2.5vl
+Amusing?,0.3636363636363636,qwen2.5vl

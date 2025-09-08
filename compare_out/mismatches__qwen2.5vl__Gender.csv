@@ -1,0 +1,7 @@
+image_path,Gender?_gt_norm,Gender?_pred_norm
+/mnt/mahdipou/test/FacesInThings/images/000000080.jpg,Male,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000365.jpg,Male,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000052.jpg,Male,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000081.jpg,Neutral,Female
+/mnt/mahdipou/test/FacesInThings/images/000000068.jpg,Female,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000724.jpg,Male,Neutral

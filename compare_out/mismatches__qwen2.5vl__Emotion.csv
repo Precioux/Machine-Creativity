@@ -1,0 +1,6 @@
+image_path,Emotion?_gt_norm,Emotion?_pred_norm
+/mnt/mahdipou/test/FacesInThings/images/000000080.jpg,Happy,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000365.jpg,Happy,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000754.jpg,Happy,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000414.jpg,Surprised,Neutral
+/mnt/mahdipou/test/FacesInThings/images/000000724.jpg,Happy,Neutral

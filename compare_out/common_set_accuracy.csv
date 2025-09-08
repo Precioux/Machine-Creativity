@@ -1,0 +1,19 @@
+attribute,model,common_support,common_accuracy
+Hard to spot?,gemini-2.5-flash-lite,14,0.8571428571428571
+Hard to spot?,qwen2.5vl,14,0.14285714285714285
+Hard to spot?,gemma3,14,0.07142857142857142
+Accident or design?,gemini-2.5-flash-lite,14,1.0
+Accident or design?,qwen2.5vl,14,0.9285714285714286
+Accident or design?,gemma3,14,0.9285714285714286
+Emotion?,gemini-2.5-flash-lite,14,0.7857142857142857
+Emotion?,qwen2.5vl,14,0.7142857142857143
+Emotion?,gemma3,14,0.5
+Person or creature?,gemini-2.5-flash-lite,14,0.14285714285714285
+Person or creature?,qwen2.5vl,14,0.2857142857142857
+Person or creature?,gemma3,14,0.14285714285714285
+Gender?,gemini-2.5-flash-lite,14,0.6428571428571429
+Gender?,qwen2.5vl,14,0.6428571428571429
+Gender?,gemma3,14,0.6428571428571429
+Amusing?,gemini-2.5-flash-lite,14,0.2857142857142857
+Amusing?,qwen2.5vl,14,0.2857142857142857
+Amusing?,gemma3,14,0.2857142857142857

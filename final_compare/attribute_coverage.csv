@@ -1,0 +1,19 @@
+model,attribute,images_answered_attr,attr_answer_rate
+gemini,Accident or design?,0,0.0
+gemini,Amusing?,0,0.0
+gemini,Emotion?,0,0.0
+gemini,Gender?,0,0.0
+gemini,Hard to spot?,0,0.0
+gemini,Person or creature?,0,0.0
+gemma,Accident or design?,0,0.0
+gemma,Amusing?,0,0.0
+gemma,Emotion?,0,0.0
+gemma,Gender?,0,0.0
+gemma,Hard to spot?,0,0.0
+gemma,Person or creature?,0,0.0
+qwen,Accident or design?,0,0.0
+qwen,Amusing?,0,0.0
+qwen,Emotion?,0,0.0
+qwen,Gender?,0,0.0
+qwen,Hard to spot?,0,0.0
+qwen,Person or creature?,0,0.0

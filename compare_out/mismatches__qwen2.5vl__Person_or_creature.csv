@@ -1,0 +1,13 @@
+image_path,Person or creature?_gt_norm,Person or creature?_pred_norm
+/mnt/mahdipou/test/FacesInThings/images/000000752.jpg,Animal,Cartoon
+/mnt/mahdipou/test/FacesInThings/images/000000365.jpg,Human-Adult,Alien
+/mnt/mahdipou/test/FacesInThings/images/000000052.jpg,Human-Young,Cartoon
+/mnt/mahdipou/test/FacesInThings/images/000000754.jpg,Other,Cartoon
+/mnt/mahdipou/test/FacesInThings/images/000000825.jpg,Human-Adult,Cartoon
+/mnt/mahdipou/test/FacesInThings/images/000000081.jpg,Alien,Human-Young
+/mnt/mahdipou/test/FacesInThings/images/000000098.jpg,Animal,Robot
+/mnt/mahdipou/test/FacesInThings/images/000000068.jpg,Human-Adult,Cartoon
+/mnt/mahdipou/test/FacesInThings/images/000000552.jpg,Other,Cartoon
+/mnt/mahdipou/test/FacesInThings/images/000000140.jpg,Human-Adult,Human-Old
+/mnt/mahdipou/test/FacesInThings/images/000000414.jpg,Cartoon,Animal
+/mnt/mahdipou/test/FacesInThings/images/000000724.jpg,Human-Adult,Cartoon
