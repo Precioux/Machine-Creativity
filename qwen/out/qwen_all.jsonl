@@ -1,0 +1,134 @@
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000009.jpg", "model": "qwen2.5vl", "latency_ms": 40929, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000027.jpg", "model": "qwen2.5vl", "latency_ms": 43822, "Hard to spot?": "Hard", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Human-Adult", "Gender?": "Male", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000052.jpg", "model": "qwen2.5vl", "latency_ms": 59401, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Happy", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000060.jpg", "model": "qwen2.5vl", "latency_ms": 22785, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000068.jpg", "model": "qwen2.5vl", "latency_ms": 46842, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000079.jpg", "model": "qwen2.5vl", "latency_ms": 27280, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000080.jpg", "model": "qwen2.5vl", "latency_ms": 46100, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Human-Adult", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000081.jpg", "model": "qwen2.5vl", "latency_ms": 50157, "Hard to spot?": "Hard", "Accident or design?": "Design", "Emotion?": "Disgusted", "Person or creature?": "Human-Young", "Gender?": "Female", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000090.jpg", "model": "qwen2.5vl", "latency_ms": 24287, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000092.jpg", "model": "qwen2.5vl", "latency_ms": 22260, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000098.jpg", "model": "qwen2.5vl", "latency_ms": 49723, "Hard to spot?": "Hard", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Robot", "Gender?": "Neutral", "Amusing?": "Somewhat"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000102.jpg", "model": "qwen2.5vl", "latency_ms": 28056, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000106.jpg", "model": "qwen2.5vl", "latency_ms": 29828, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000107.jpg", "model": "qwen2.5vl", "latency_ms": 26929, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000113.jpg", "model": "qwen2.5vl", "latency_ms": 44364, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Happy", "Person or creature?": "Human-Young", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000115.jpg", "model": "qwen2.5vl", "latency_ms": 32178, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000120.jpg", "model": "qwen2.5vl", "latency_ms": 31808, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000140.jpg", "model": "qwen2.5vl", "latency_ms": 57720, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Human-Old", "Gender?": "Male", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000143.jpg", "model": "qwen2.5vl", "latency_ms": 29620, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000152.jpg", "model": "qwen2.5vl", "latency_ms": 31766, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000160.jpg", "model": "qwen2.5vl", "latency_ms": 35830, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000161.jpg", "model": "qwen2.5vl", "latency_ms": 27189, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000166.jpg", "model": "qwen2.5vl", "latency_ms": 29139, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000176.jpg", "model": "qwen2.5vl", "latency_ms": 30482, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000181.jpg", "model": "qwen2.5vl", "latency_ms": 35392, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000189.jpg", "model": "qwen2.5vl", "latency_ms": 35544, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000197.jpg", "model": "qwen2.5vl", "latency_ms": 35437, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000199.jpg", "model": "qwen2.5vl", "latency_ms": 40064, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000206.jpg", "model": "qwen2.5vl", "latency_ms": 34292, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000209.jpg", "model": "qwen2.5vl", "latency_ms": 29573, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000216.jpg", "model": "qwen2.5vl", "latency_ms": 34447, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000220.jpg", "model": "qwen2.5vl", "latency_ms": 33167, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000230.jpg", "model": "qwen2.5vl", "latency_ms": 43505, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000240.jpg", "model": "qwen2.5vl", "latency_ms": 28235, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000242.jpg", "model": "qwen2.5vl", "latency_ms": 27987, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000283.jpg", "model": "qwen2.5vl", "latency_ms": 39275, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000289.jpg", "model": "qwen2.5vl", "latency_ms": 43741, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000290.jpg", "model": "qwen2.5vl", "latency_ms": 43131, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000292.jpg", "model": "qwen2.5vl", "latency_ms": 42345, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000293.jpg", "model": "qwen2.5vl", "latency_ms": 37294, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000295.jpg", "model": "qwen2.5vl", "latency_ms": 42658, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000297.jpg", "model": "qwen2.5vl", "latency_ms": 39716, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000308.jpg", "model": "qwen2.5vl", "latency_ms": 36272, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000309.jpg", "model": "qwen2.5vl", "latency_ms": 38646, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000333.jpg", "model": "qwen2.5vl", "latency_ms": 31993, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000336.jpg", "model": "qwen2.5vl", "latency_ms": 36670, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000337.jpg", "model": "qwen2.5vl", "latency_ms": 34246, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000342.jpg", "model": "qwen2.5vl", "latency_ms": 41247, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000349.jpg", "model": "qwen2.5vl", "latency_ms": 51168, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Animal", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000350.jpg", "model": "qwen2.5vl", "latency_ms": 32095, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000351.jpg", "model": "qwen2.5vl", "latency_ms": 37895, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000354.jpg", "model": "qwen2.5vl", "latency_ms": 34108, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000361.jpg", "model": "qwen2.5vl", "latency_ms": 27437, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000362.jpg", "model": "qwen2.5vl", "latency_ms": 41566, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000365.jpg", "model": "qwen2.5vl", "latency_ms": 60362, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Alien", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000370.jpg", "model": "qwen2.5vl", "latency_ms": 39379, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000375.jpg", "model": "qwen2.5vl", "latency_ms": 44012, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000376.jpg", "model": "qwen2.5vl", "latency_ms": 33935, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000379.jpg", "model": "qwen2.5vl", "latency_ms": 30772, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000393.jpg", "model": "qwen2.5vl", "latency_ms": 31932, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000401.jpg", "model": "qwen2.5vl", "latency_ms": 43079, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000408.jpg", "model": "qwen2.5vl", "latency_ms": 27037, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000413.jpg", "model": "qwen2.5vl", "latency_ms": 38241, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000414.jpg", "model": "qwen2.5vl", "latency_ms": 57243, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Animal", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000417.jpg", "model": "qwen2.5vl", "latency_ms": 49311, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000429.jpg", "model": "qwen2.5vl", "latency_ms": 48589, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000430.jpg", "model": "qwen2.5vl", "latency_ms": 51962, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000436.jpg", "model": "qwen2.5vl", "latency_ms": 36780, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000444.jpg", "model": "qwen2.5vl", "latency_ms": 41965, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000445.jpg", "model": "qwen2.5vl", "latency_ms": 35327, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000446.jpg", "model": "qwen2.5vl", "latency_ms": 37128, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000469.jpg", "model": "qwen2.5vl", "latency_ms": 34722, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000471.jpg", "model": "qwen2.5vl", "latency_ms": 31606, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000473.jpg", "model": "qwen2.5vl", "latency_ms": 30260, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000477.jpg", "model": "qwen2.5vl", "latency_ms": 38846, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000483.jpg", "model": "qwen2.5vl", "latency_ms": 33098, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000490.jpg", "model": "qwen2.5vl", "latency_ms": 34872, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000492.jpg", "model": "qwen2.5vl", "latency_ms": 51619, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Happy", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000497.jpg", "model": "qwen2.5vl", "latency_ms": 31924, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000498.jpg", "model": "qwen2.5vl", "latency_ms": 33481, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000501.jpg", "model": "qwen2.5vl", "latency_ms": 28952, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000507.jpg", "model": "qwen2.5vl", "latency_ms": 63381, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000510.jpg", "model": "qwen2.5vl", "latency_ms": 57985, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Human-Adult", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000532.jpg", "model": "qwen2.5vl", "latency_ms": 43505, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000544.jpg", "model": "qwen2.5vl", "latency_ms": 25829, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000549.jpg", "model": "qwen2.5vl", "latency_ms": 36224, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000552.jpg", "model": "qwen2.5vl", "latency_ms": 51748, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000555.jpg", "model": "qwen2.5vl", "latency_ms": 37703, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000568.jpg", "model": "qwen2.5vl", "latency_ms": 48922, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Animal", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000575.jpg", "model": "qwen2.5vl", "latency_ms": 35871, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000577.jpg", "model": "qwen2.5vl", "latency_ms": 44740, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000580.jpg", "model": "qwen2.5vl", "latency_ms": 41341, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000589.jpg", "model": "qwen2.5vl", "latency_ms": 43018, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000648.jpg", "model": "qwen2.5vl", "latency_ms": 43233, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000654.jpg", "model": "qwen2.5vl", "latency_ms": 35183, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000660.jpg", "model": "qwen2.5vl", "latency_ms": 25756, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000676.jpg", "model": "qwen2.5vl", "latency_ms": 30575, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000679.jpg", "model": "qwen2.5vl", "latency_ms": 29082, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000682.jpg", "model": "qwen2.5vl", "latency_ms": 58286, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Happy", "Person or creature?": "Other", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000686.jpg", "model": "qwen2.5vl", "latency_ms": 64066, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Robot", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000689.jpg", "model": "qwen2.5vl", "latency_ms": 40556, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000693.jpg", "model": "qwen2.5vl", "latency_ms": 66096, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000702.jpg", "model": "qwen2.5vl", "latency_ms": 36025, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000706.jpg", "model": "qwen2.5vl", "latency_ms": 39275, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000717.jpg", "model": "qwen2.5vl", "latency_ms": 43103, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000718.jpg", "model": "qwen2.5vl", "latency_ms": 38910, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000720.jpg", "model": "qwen2.5vl", "latency_ms": 33412, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000721.jpg", "model": "qwen2.5vl", "latency_ms": 39146, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000724.jpg", "model": "qwen2.5vl", "latency_ms": 54509, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000725.jpg", "model": "qwen2.5vl", "latency_ms": 32930, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000729.jpg", "model": "qwen2.5vl", "latency_ms": 1440, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000731.jpg", "model": "qwen2.5vl", "latency_ms": 51402, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000732.jpg", "model": "qwen2.5vl", "latency_ms": 43617, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000733.jpg", "model": "qwen2.5vl", "latency_ms": 32860, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000752.jpg", "model": "qwen2.5vl", "latency_ms": 50595, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000754.jpg", "model": "qwen2.5vl", "latency_ms": 44920, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Neutral", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000756.jpg", "model": "qwen2.5vl", "latency_ms": 24747, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000767.jpg", "model": "qwen2.5vl", "latency_ms": 27176, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000772.jpg", "model": "qwen2.5vl", "latency_ms": 26249, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000773.jpg", "model": "qwen2.5vl", "latency_ms": 42104, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000801.jpg", "model": "qwen2.5vl", "latency_ms": 32740, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000802.jpg", "model": "qwen2.5vl", "latency_ms": 32809, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000804.jpg", "model": "qwen2.5vl", "latency_ms": 31760, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000808.jpg", "model": "qwen2.5vl", "latency_ms": 45843, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000809.jpg", "model": "qwen2.5vl", "latency_ms": 36750, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000810.jpg", "model": "qwen2.5vl", "latency_ms": 32614, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000811.jpg", "model": "qwen2.5vl", "latency_ms": 47542, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000825.jpg", "model": "qwen2.5vl", "latency_ms": 75605, "Hard to spot?": "Medium", "Accident or design?": "Design", "Emotion?": "Happy", "Person or creature?": "Cartoon", "Gender?": "Neutral", "Amusing?": "Yes"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000832.jpg", "model": "qwen2.5vl", "latency_ms": 46546, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000833.jpg", "model": "qwen2.5vl", "latency_ms": 42771, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000836.jpg", "model": "qwen2.5vl", "latency_ms": 43052, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000856.jpg", "model": "qwen2.5vl", "latency_ms": 44525, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000859.jpg", "model": "qwen2.5vl", "latency_ms": 41795, "error": "no_face", "_raw": "no face"}
+{"image_path": "/mnt/mahdipou/test/FacesInThings/images/000000875.jpg", "model": "qwen2.5vl", "latency_ms": 38967, "error": "no_face", "_raw": "no face"}

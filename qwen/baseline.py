@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-run_all_and_compare_gemma.py
+run_all_and_compare_qwen.py
 
-End-to-end script to process ALL images in FacesInThings/images with Gemma (via Ollama),
-save streaming JSONL outputs (with resume), and compare against metadata.csv.
-
-What it does:
-1) Connects to a local Ollama server (OLLAMA_BASE) and uses a Gemma-3 tag (MODEL_TAG).
-2) Iterates over ALL images under FacesInThings/images (with resume).
-3) For each image, requests EXACT six attributes as JSON (dataset-aligned) per the prompt.
-4) Appends one line per image to out/gemma_all.jsonl as soon as it's ready.
-5) After completion, loads metadata.csv and computes per-attribute accuracy.
-6) Writes comparison reports to compare_out/ and prints a summary.
+End-to-end script to process ALL images in FacesInThings/images with Qwen (via Ollama),
+save JSONL outputs (with resume), and compare against metadata.csv.
+Also prints each image's output to stdout.
 
 You can safely stop & rerun; it will skip already-processed images.
 """
@@ -31,20 +24,23 @@ import pandas as pd
 from PIL import Image
 
 # ====================== PATHS — EDIT IF NEEDED ======================
-GEMMA_FOLDER   = Path("/mnt/mahdipou/test/code/gemma")  # keep same folder if you want
-IMAGES_DIR     = Path("/mnt/mahdipou/test/FacesInThings/images")
-METADATA_CSV   = Path("/mnt/mahdipou/test/FacesInThings/metadata.csv")
+BASE_FOLDER   = Path("/mnt/mahdipou/test/code/qwen")  # keep your code folder
+IMAGES_DIR    = Path("/mnt/mahdipou/test/FacesInThings/images")
+METADATA_CSV  = Path("/mnt/mahdipou/test/FacesInThings/metadata.csv")
 
-OUT_BASE       = GEMMA_FOLDER
-RESULTS_JSONL  = OUT_BASE / "out/gemma_all.jsonl"   # changed filename to gemma_all.jsonl
-COMPARE_OUT    = OUT_BASE / "compare_out"
+OUT_BASE      = BASE_FOLDER
+RESULTS_JSONL = OUT_BASE / "out/qwen_all.jsonl"
+COMPARE_OUT   = OUT_BASE / "compare_out"
 
 # ====================== OLLAMA / MODEL CONFIG ======================
-OLLAMA_BASE   = os.environ.get("OLLAMA_BASE", "http://127.0.0.1:1143").rstrip("/")
-MODEL_TAG     = os.environ.get("GEMMA_TAG", "gemma3")   
+OLLAMA_BASE   = os.environ.get("OLLAMA_BASE", "http://127.0.0.1:11434").rstrip("/")
+
+# IMPORTANT: matches your installed tag (shown by `ollama list`)
+MODEL_TAG     = os.environ.get("QWEN_TAG") or "qwen2.5vl"  # <-- changed (no dash)
+
 TEMPERATURE   = 0.0
-TIMEOUT_SEC   = 60
-SLEEP_BETWEEN = 0.10   # polite spacing between calls
+TIMEOUT_SEC   = 120
+SLEEP_BETWEEN = 0.10
 MAX_RETRIES   = 3
 
 # Ask for the six Faces-in-Things attributes ONLY (aligned to dataset categories)
@@ -53,7 +49,6 @@ PROMPT = """You are given an image. Look at the image and determine whether ther
 If no face is visible, respond with: no face
 
 If a face is visible, respond with the following strict JSON format (and nothing else):
-
 
 {
   "Hard to spot?": "<Easy|Medium|Hard>",
@@ -66,6 +61,7 @@ If a face is visible, respond with the following strict JSON format (and nothing
 
 Do not explain your answer. Respond with either no face or the JSON only.
 """
+
 EXPECTED_ATTRS = [
     "Hard to spot?",
     "Accident or design?",
@@ -154,7 +150,26 @@ def append_jsonl(jsonl_path: Path, row: dict):
     with open(jsonl_path, "a", encoding="utf-8") as f:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-# ============== OLLAMA CALL (Gemma-3) ==============
+def print_result_to_console(p: Path, text: str):
+    """Prints a short, parse-friendly line for each image."""
+    header = f"[{p.name}] "
+    if not text:
+        print(header + "EMPTY_RESPONSE")
+        return
+    t = text.strip()
+    if t.lower() == "no face":
+        print(header + "no face")
+    else:
+        # Try to keep a single-line JSON if possible
+        try:
+            obj = json.loads(t)
+            print(header + json.dumps(obj, ensure_ascii=False))
+        except Exception:
+            # fall back to raw (truncated) text
+            preview = t.replace("\n", " ")[:500]
+            print(header + f"NON_JSON: {preview}")
+
+# ============== OLLAMA CALL ==============
 def ollama_generate(prompt: str, image_b64: Optional[str], timeout_sec: int) -> Dict[str, str]:
     """
     Calls Ollama /api/generate with stream=False.
@@ -190,22 +205,25 @@ def main():
     if len(todo) == 0:
         print("Nothing to do. Proceeding to comparison step...")
 
-    # 2) Process all pending images (sequential, with retry & streaming append)
+    # 2) Process all pending images
     processed = 0
     for idx, p in enumerate(todo, 1):
-        b64, mime = reencode_to_jpeg_b64(p)
+        b64, _mime = reencode_to_jpeg_b64(p)
         attempt = 0
         row = None
         while attempt < MAX_RETRIES:
             try:
                 t0 = time.time()
                 resp = ollama_generate(
-                    prompt=f"{PROMPT}\n",   # ensure prompt ends cleanly
+                    prompt=PROMPT,
                     image_b64=b64,
                     timeout_sec=TIMEOUT_SEC
                 )
                 latency_ms = int((time.time() - t0) * 1000)
                 text = (resp.get("text") or "").strip()
+
+                # ---- Print live to console per image ----
+                print_result_to_console(p, text)
 
                 # Accept either 'no face' OR strict JSON. Anything else -> non_json_response
                 if text.lower() == "no face":
@@ -231,19 +249,17 @@ def main():
                         for attr in EXPECTED_ATTRS:
                             data.setdefault(attr, None)
                         row = {"image_path": str(p), "model": MODEL_TAG, "latency_ms": latency_ms, **data}
-                break  # success (even if non-JSON or no_face, we recorded it)
+                break  # success
             except Exception as e:
                 attempt += 1
                 if attempt >= MAX_RETRIES:
                     row = {"image_path": str(p), "model": MODEL_TAG, "error": f"exception:{e}"}
+                    print(f"[{p.name}] ERROR after {attempt} attempts: {e}")
                 else:
                     time.sleep(0.5 * attempt)  # backoff and retry
 
         append_jsonl(RESULTS_JSONL, row)
         processed += 1
-
-        if processed % 25 == 0 or processed == len(todo):
-            print(f"Processed {processed}/{len(todo)} | Last: {p.name}")
         time.sleep(SLEEP_BETWEEN)
 
     print(f"\nStreaming results saved to → {RESULTS_JSONL}")
